@@ -1,0 +1,27 @@
+
+1Пользователь вводит фразу. Вывести на экран количество слов в этой фразе
+
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main()
+{
+    int c, word;
+    word=1;
+  //  symbol=0;
+    while ((c=getchar())!='\n')
+    {
+  //      symbol++;
+        if(c==' ')
+            word++;
+    }
+    printf("Words %d\n",word);
+
+    return 0;
+}
+2. Пользователь вводит фразу. Вывести на экран слова с повторяющимися буквами.--------
+
+
